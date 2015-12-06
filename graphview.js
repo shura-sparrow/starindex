@@ -73,11 +73,11 @@
                 me.titles.push(item.get('label'));
                 me.valueFields.push(item.get('label'));
                 for (var counter = 0; counter < length; counter++) {
-                    if (item.get('data')[counter] != undefined)
+                    if (item.get('data')[counter] !== undefined)
                         me.chartData[counter][item.get('label')] = item.get('data')[counter]['value'];
                     else {
                         for (var m = counter; m >= 0; m--) {
-                            if (item.get('data')[m] != undefined) {
+                            if (item.get('data')[m] !== undefined) {
                                 me.chartData[counter][item.get('label')] = item.get('data')[m]['value'];
                                 break;
                             }

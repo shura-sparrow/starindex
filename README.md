@@ -7,7 +7,7 @@
 ##Используемые библиотеки
 * BackboneJS, jQuery
 * [Underscore](http://underscorejs.org/) - шаблонизатор
-* [AmCharts](http://www.amcharts.com/javascript-charts/) - для построения графиков
+* [AmCharts](http://www.amcharts.com/javascript-charts/) - библиотека для построения графиков
 
 ## Файлы
 * statisticsmodel.js - модель данных
